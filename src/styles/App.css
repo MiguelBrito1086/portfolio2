@@ -1,0 +1,96 @@
+body {
+  margin: 0
+}
+
+.header {
+  width: 100%;
+  background-image: url('../yellow.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+  opacity: .8;
+  height: 28.5em;
+}
+
+.header:hover {
+  opacity: 1;
+}
+
+.hi {
+  font-size: 3em;
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  padding: 2em 0em 0em 1em;
+  color: #EDEBBB;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #4f5555;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: .15em 2em .15em 0em;
+  font-size: 2em;
+  color: #EDEBBB;
+  animation: links infinite 10s linear;
+}
+
+@keyframes links {
+
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 25em;
+  margin: 4em 3em 0em 3em;
+}
+
+.about img {
+  margin-top: 5em;
+}
+
+.about p {
+  width: 28em;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 30em;
+}
+
+.projects img {
+  margin: 2em;
+}
