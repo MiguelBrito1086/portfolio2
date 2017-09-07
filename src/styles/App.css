@@ -4,13 +4,14 @@ body {
 
 .header {
   width: 100%;
-  background-image: url('../yellow.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: absolute;
-  opacity: .8;
   height: 28.5em;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: -2
 }
 
 .header:hover {
@@ -20,20 +21,21 @@ body {
 .hi {
   font-size: 3em;
   background-color: transparent;
-  color: white;
   margin: 0;
   padding: 2em 0em 0em 1em;
   color: #EDEBBB;
+  position: absolute;
+  top: -1px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
   display: flex;
   justify-content: flex-end;
   background-color: #4f5555;
-  position: sticky;
+  width: 100%;
   z-index: 1;
-  top: 0;
-  left: 0;
+  position: fixed;
 }
 
 .navbar a {
@@ -42,6 +44,7 @@ body {
   font-size: 2em;
   color: #EDEBBB;
   animation: links infinite 10s linear;
+  font-family: 'Josefin Slab', serif;
 }
 
 @keyframes links {
@@ -67,13 +70,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  position: relative;
-  top: 25em;
-  margin: 4em 3em 0em 3em;
+  background-color: #d9edf0;
 }
 
 .about img {
-  margin-top: 5em;
+  margin: 5em 1em 5em 0em;
 }
 
 .about p {
@@ -81,16 +82,37 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.5em;
+  margin-right: 1.5em;
 }
 
 .projects {
+  background-color: #a4a6ab;
+}
+
+.projects h1 {
+  margin: 0;
+  padding: 1em 0em 0em 1.75em;
+}
+
+.project {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  position: relative;
-  top: 30em;
+  margin: 4em 3em 0em 3em;
+  opacity: .2;
 }
 
-.projects img {
-  margin: 2em;
+.project:hover {
+  opacity: 1;
+}
+
+.project img {
+  margin-left: 4em;
+}
+
+.project p {
+  width: 28em;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
 }
