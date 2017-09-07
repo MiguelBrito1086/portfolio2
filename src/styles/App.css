@@ -83,6 +83,7 @@ body {
   align-items: center;
   font-size: 1.5em;
   margin-right: 1.5em;
+  font-family: 'Dosis', sans-serif;
 }
 
 .projects {
@@ -115,4 +116,5 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.5em;
+  font-family: 'Dosis', sans-serif;
 }
