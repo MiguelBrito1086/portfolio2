@@ -5,6 +5,8 @@ import NavBar from '../components/NavBar';
 import AboutMe from '../components/AboutMe';
 import Projects from '../components/Projects';
 import Languages from '../components/Languages';
+import Contact from '../components/Contact';
+
 
 class App extends Component {
   render() {
@@ -15,6 +17,7 @@ class App extends Component {
         <AboutMe />
         <Projects />
         <Languages />
+        <Contact />
       </div>
     );
   }

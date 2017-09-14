@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import ReactImg from '../images/React.svg'
 
 export default class Languages extends Component {
   render() {
