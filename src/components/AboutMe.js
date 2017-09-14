@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Profile from '../profile.png';
+import Profile from '../images/profile.png';
 
 export default class AboutMe extends Component {
   render() {
     return (
-      <div className='aboutme'>
+      <div className='aboutme' id='AboutMe'>
         <div className='about'>
           <h1>About Me</h1>
           <img src={Profile} alt="profile"/>
