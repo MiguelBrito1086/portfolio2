@@ -232,6 +232,11 @@ body {
   color: #EDEBBB;
 }
 
+.links a:hover {
+  transform: translateY(-.75em);
+  transition: all 200ms ease-in-out
+}
+
 .links a i {
   font-size: 4em;
   margin-bottom: .25em;
