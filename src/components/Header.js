@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Yellow from '../images/yellow.jpg';
+import Yellow from '../images/yellow3.jpg';
 
 export default class Header extends Component {
   render() {

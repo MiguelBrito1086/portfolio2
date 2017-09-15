@@ -34,7 +34,7 @@ export default class Languages extends Component {
             <span>Atom</span>
           </li>
         </ul>
-        <ul>
+        <ul className='second-row'>
           <li>
             <i className="devicon-photoshop-line" />
             <span>Photoshop</span>

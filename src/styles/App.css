@@ -4,13 +4,13 @@ body {
 
 .header {
   width: 100%;
-  height: 28.5em;
+  height: 22em;
 }
 
 .header img {
   width: 100%;
   height: auto;
-  position: fixed;
+  position: relative;
   z-index: -2;
 }
 
@@ -74,23 +74,26 @@ body {
   }
 }
 
+.aboutme {
+  height: 40em;
+  background-color: #92B9BD;
+}
+
+.aboutme h1 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 3em;
+  text-shadow: 2px 2px 3px #737370;
+  padding: 1em 0em 0em .75em;
+}
+
 .about {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #92B9BD;
-  padding: 1em;
-  box-shadow: 0px 1px 2px black;
-}
-
-.about h1 {
-  font-family: 'Josefin Slab', serif;
-  font-size: 3em;
-  text-shadow: 2px 2px 3px #737370;
 }
 
 .about img {
-  margin: 5em 1em 5em 0em;
+  margin: 2em 1em 5em 1em;
 }
 
 .about p {
@@ -100,8 +103,6 @@ body {
   font-size: 1.5em;
   margin-right: 1.5em;
   font-family: 'Josefin Slab', serif;
-  letter-spacing: .1em;
-  word-spacing: .1em;
 }
 
 .projects {
@@ -123,7 +124,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 4em 3em 0em 3em;
+  margin: 4em 2em 0em 2em;
   opacity: .5;
 }
 
@@ -132,7 +133,8 @@ body {
 }
 
 .project img {
-  margin-left: 4em;
+  /*margin-left: 4em;*/
+  margin: 0em 1em 0em 4em;
 }
 
 .project p {
@@ -142,35 +144,33 @@ body {
   font-size: 1.5em;
   color: #EDEBBB;
   font-family: 'Josefin Slab', serif;
-  letter-spacing: .1em;
-  word-spacing: .1em;
 }
 
 .icons {
   background-color: #92B9BD;
-  height: 22em;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  height: 25em;
 }
 
-.icons ul {
-  width: 100vh;
+.first-row {
   margin: 0;
+  padding: 3em 0em 2em 0em;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
 .icons li {
   list-style: none;
-  width: 7em;
-  height: 5em;
-  margin: 1em 2.5em 1em 1em;
-  padding: 1em 1em 2em 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: .5em;
 }
 
 .icons li i {
@@ -250,4 +250,10 @@ body {
 .links span {
   font-family: 'Dancing Script', cursive;
   font-size: 1.5em;
+}
+
+/**** Tablet Styles ***********************************/
+
+@media (min-width: 750px) {
+  
 }
