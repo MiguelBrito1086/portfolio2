@@ -8,13 +8,6 @@ body {
   background-image: url('../images/yellow3.jpg');
   background-size: cover;
 }
-/*
-.header img {
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: -2;
-}*/
 
 .hi {
   font-size: 3em;
@@ -258,7 +251,7 @@ body {
 
 /**** Tablet Styles ***********************************/
 
-@media (max-width: 750px) {
+@media handheld, screen and (max-width: 750px) {
 
   .header img {
     width: 100%;
@@ -494,7 +487,7 @@ body {
 
 /**** Mobile Styles ***********************************/
 
-@media (max-width: 440px) {
+@media handheld, screen and (max-width: 440px) {
 
   .header img {
     width: 100%;
