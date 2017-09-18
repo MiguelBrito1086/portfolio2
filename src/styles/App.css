@@ -360,10 +360,6 @@ body {
     border-bottom: 1px solid #EDEBBB;
     margin: 4em 2em 0em 2em;
     padding-bottom: .5em;
-    opacity: .5;
-  }
-
-  .project a:hover {
     opacity: 1;
   }
 
@@ -434,7 +430,6 @@ body {
     color: black;
     transition: none;
     transition-timing-function: none;
-    /*border-radius: 10px;*/
   }
 
   .icons span:hover {
