@@ -9,20 +9,6 @@ body {
   background-size: cover;
 }
 
-.hi {
-  font-size: 3em;
-  background-color: transparent;
-  margin: 0;
-  padding: 2em 0em 0em 1em;
-  color: white;
-  text-shadow: 2px 1px 3px #abaa8a;
-  position: absolute;
-  top: -1px;
-  font-family: 'Patrick Hand SC', cursive;
-  font-weight: 100;
-  font-style: italic;
-}
-
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -30,20 +16,19 @@ body {
   width: 100%;
   z-index: 1;
   position: fixed;
-  box-shadow: 0px 2px 2px #888888;
 }
 
 .navbar a {
   text-decoration: none;
   margin: .15em 2em .15em 0em;
   font-size: 2em;
-  color: #f9f7ed;
+  color: #E9E9EB;
   font-family: 'Josefin Slab', serif;
   font-weight: 100;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
   transition: all 0.2s ease-in-out;
-  text-shadow: 0 1px 8px #bebc85;
+  text-shadow: 0 1px 8px #8b8b85;
 }
 
 .navbar a:hover {
@@ -59,9 +44,9 @@ body {
   margin: 0;
   font-family: 'Josefin Slab', serif;
   font-size: 3em;
-  text-shadow: 2px 2px 3px #939390;
+  text-shadow: 2px 2px 3px #8b8b85;
   padding: 1em 0em 0em .75em;
-  color: #f9f7ed;
+  color: #E9E9EB;
 }
 
 .about {
@@ -79,13 +64,13 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.5em;
-  color: #f9f7ed;
+  color: #E9E9EB;
   margin-right: 1.5em;
   font-family: 'Josefin Slab', serif;
 }
 
 .projects {
-  background-color: #f9f7ed;
+  background-color: #E9E9EB;
   padding-bottom: 4em;
 }
 
@@ -94,7 +79,7 @@ body {
   padding: 1em 0em 0em .75em;
   font-family: 'Josefin Slab', serif;
   font-size: 3em;
-  text-shadow: 2px 1px 3px #abaa8a;
+  text-shadow: 2px 1px 3px #8b8b85;
   color: #12110E;
 }
 
@@ -155,7 +140,7 @@ body {
 .icons li i {
   font-size: 4em;
   padding: .1em;
-  color: #f9f7ed;
+  color: #E9E9EB;
 }
 
 .icons span {
@@ -168,7 +153,7 @@ body {
 
 .icons li:hover {
   background-color: #5f6262;
-  color: #f9f7ed;
+  color: #E9E9EB;
   transition: background-color .5s, color .5s;
   transition-timing-function: ease-in-out;
   border-radius: 10px;
@@ -183,7 +168,7 @@ body {
 
 .contact {
   height: 26em;
-  background-color: #f9f7ed;
+  background-color: #E9E9EB;
   color: #12110E;
 }
 
@@ -193,7 +178,7 @@ body {
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
   font-size: 2.5em;
-  text-shadow: 2px 1px 2px #abaa8a;
+  text-shadow: 2px 1px 2px #8b8b85;
 }
 
 .links {
@@ -236,25 +221,11 @@ body {
 
 @media handheld, screen and (max-width: 750px) {
 
-  .header img {
+  .header {
     width: 100%;
     z-index: -2;
     background-image: url('../images/yellow3.jpg');
-    background-size: contain;
-  }
-
-  .hi {
-    width: 100%;
-    font-size: 2.5em;
-    background-color: transparent;
-    margin: 0;
-    padding: 3em 0em 0em 0em;
-    color: white;
-    text-shadow: 2px 1px 3px #abaa8a;
-    font-family: 'Patrick Hand SC', cursive;
-    font-weight: 100;
-    font-style: italic;
-    text-align: center;
+    background-size: cover;
   }
 
   .navbar {
@@ -264,20 +235,20 @@ body {
     width: 100%;
     z-index: 1;
     position: fixed;
-    box-shadow: 0px 2px 2px #888888;
+    /*box-shadow: 0px 2px 2px #888888;*/
   }
 
   .navbar a {
     text-decoration: none;
     margin: .15em 1em .15em 1em;
     font-size: 1.5em;
-    color: #f9f7ed;
+    color: #E9E9EB;
     font-family: 'Josefin Slab', serif;
     font-weight: 100;
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
     transition: all 0.2s ease-in-out;
-    text-shadow: 0 1px 8px #bebc85;
+    text-shadow: 0 1px 8px #8b8b85;
   }
 
   .aboutme {
@@ -288,7 +259,7 @@ body {
   .aboutme h1 {
     font-family: 'Josefin Slab', serif;
     font-size: 3em;
-    text-shadow: 2px 2px 3px #737370;
+    text-shadow: 2px 2px 3px #8b8b85;
     padding: .5em 0em 0em .75em;
     margin: 0;
   }
@@ -324,8 +295,8 @@ body {
     padding: .5em 0em 0em .75em;
     font-family: 'Josefin Slab', serif;
     font-size: 3em;
-    text-shadow: 2px 1px 3px #abaa8a;
-    color: #f9f7ed;
+    text-shadow: 2px 1px 3px #8b8b85;
+    color: #E9E9EB;
   }
 
   .project a {
@@ -350,12 +321,12 @@ body {
     display: flex;
     align-items: center;
     font-size: 1.5em;
-    color: #f9f7ed;
+    color: #E9E9EB;
     font-family: 'Josefin Slab', serif;
   }
 
   .icons {
-    background-color: #f9f7ed;
+    background-color: #E9E9EB;
     height: 38em;
   }
 
@@ -395,7 +366,7 @@ body {
   }
 
   .icons span {
-    color: #f9f7ed;
+    color: #E9E9EB;
     font-size: 1.5em;
     padding-bottom: 5px;
     font-family: 'Raleway', sans-serif;
@@ -418,7 +389,7 @@ body {
 
   .contact {
     height: 20em;
-    background-color: #f9f7ed;
+    background-color: #E9E9EB;
     color: #12110E;
   }
 
@@ -428,7 +399,7 @@ body {
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
     font-size: 2.5em;
-    text-shadow: 2px 1px 2px #abaa8a;
+    text-shadow: 2px 1px 2px #8b8b85;
   }
 
   .links {
@@ -475,25 +446,11 @@ body {
 
 @media handheld, screen and (max-width: 440px) {
 
-  .header img {
+  .header {
     width: 100%;
     z-index: -2;
-    /*background-image: url('../images/yellow3.jpg');
-    background-size: cover;*/
-  }
-
-  .hi {
-    width: 100%;
-    font-size: 2.5em;
-    background-color: transparent;
-    margin: 0;
-    padding: 5em 0em 0em 0em;
-    color: white;
-    text-shadow: 2px 1px 3px #abaa8a;
-    font-family: 'Patrick Hand SC', cursive;
-    font-weight: 100;
-    font-style: italic;
-    text-align: center;
+    background-image: url('../images/yellow3.jpg');
+    background-size: cover;
   }
 
   .navbar {
@@ -504,7 +461,6 @@ body {
     width: 100%;
     z-index: 1;
     position: fixed;
-    box-shadow: none;
   }
 
   .navbar a {
@@ -517,13 +473,13 @@ body {
     background-color: #12110E;
     border: 1px solid #5f6361;
     border-radius: 3px;
-    color: #f9f7ed;
+    color: #E9E9EB;
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
     transition: all 0.2s ease-in-out;
-    text-shadow: 0 1px 8px #bebc85;
+    text-shadow: 0 1px 8px #8b8b85;
   }
 
   .aboutme {
@@ -534,7 +490,7 @@ body {
   .aboutme h1 {
     font-family: 'Josefin Slab', serif;
     font-size: 3em;
-    text-shadow: 2px 2px 3px #737370;
+    text-shadow: 2px 2px 3px #8b8b85;
     padding: .5em 0em 0em 0em;
     margin: 0;
     text-align: center;
@@ -570,8 +526,8 @@ body {
     padding: .5em 0em 0em 0em;
     font-family: 'Josefin Slab', serif;
     font-size: 3em;
-    text-shadow: 2px 1px 3px #abaa8a;
-    color: #f9f7ed;
+    text-shadow: 2px 1px 3px #8b8b85;
+    color: #E9E9EB;
     text-align: center;
   }
 
@@ -597,12 +553,12 @@ body {
     display: flex;
     align-items: center;
     font-size: 1.5em;
-    color: #f9f7ed;
+    color: #E9E9EB;
     font-family: 'Josefin Slab', serif;
   }
 
   .icons {
-    background-color: #f9f7ed;
+    background-color: #E9E9EB;
     height: 30em;
   }
 
@@ -641,7 +597,7 @@ body {
   }
 
   .icons span {
-    color: #f9f7ed;
+    color: #E9E9EB;
     font-size: 1.5em;
     padding-bottom: 5px;
     font-family: 'Raleway', sans-serif;
@@ -665,7 +621,7 @@ body {
 
   .contact {
     height: 25em;
-    background-color: #f9f7ed;
+    background-color: #E9E9EB;
     color: #12110E;
   }
 
@@ -675,7 +631,7 @@ body {
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
     font-size: 2.5em;
-    text-shadow: 2px 1px 2px #abaa8a;
+    text-shadow: 2px 1px 2px #8b8b85;
   }
 
   .links {
