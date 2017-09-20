@@ -419,8 +419,8 @@ body {
   }
 
   .links a:hover {
-    transform: translateY(-.75em);
-    transition: all 200ms ease-in-out
+    transform: none;
+    transition: none;
   }
 
   .links a i {
