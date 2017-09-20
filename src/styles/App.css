@@ -237,7 +237,6 @@ body {
     width: 100%;
     z-index: 1;
     position: fixed;
-    /*box-shadow: 0px 2px 2px #888888;*/
   }
 
   .navbar a {
@@ -310,6 +309,7 @@ body {
     margin: 4em 2em 0em 2em;
     padding-bottom: .5em;
     opacity: 1;
+    filter: none;
   }
 
   .project img {
