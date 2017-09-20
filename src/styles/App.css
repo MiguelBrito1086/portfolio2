@@ -90,10 +90,12 @@ body {
   justify-content: space-around;
   margin: 4em 2em 0em 2em;
   opacity: .5;
+  filter: grayscale(100%);
 }
 
 .project a:hover {
   opacity: 1;
+  filter: grayscale(0%);
 }
 
 .project img {
