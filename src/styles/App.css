@@ -265,7 +265,7 @@ body {
   }
 
   .aboutme {
-    height: 52em;
+    height: 54em;
     background-color: #12110E;
   }
 
@@ -274,7 +274,7 @@ body {
     font-size: 3em;
     text-shadow: 2px 2px 3px #8b8b85;
     padding: .5em 0em 0em .75em;
-    margin: 0em 0em 1em 0em;
+    margin: 0em 0em .75em 0em;
   }
 
   .about {
@@ -503,7 +503,7 @@ body {
   }
 
   .aboutme {
-    height: 50em;
+    height: 52em;
     background-color: #12110E;
   }
 
@@ -512,7 +512,7 @@ body {
     font-size: 3em;
     text-shadow: 2px 2px 3px #8b8b85;
     padding: .5em 0em 0em 0em;
-    margin: 0em 0em 1em 0em;
+    margin: 0em 0em .5em 0em;
     text-align: center;
   }
 
