@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Yellow from '../images/yellow3.jpg';
+import MB from '../images/MB.png';
 
 export default class Header extends Component {
   render() {
     return (
       <div className='header'>
-        {/* <img id='mug' src={Yellow} alt="mug"/> */}
+        <img id='MB' src={MB} alt="MB"/>{/*Made with Sketch*/}
       </div>
     )
   }

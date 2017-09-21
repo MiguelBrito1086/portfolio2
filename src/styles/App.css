@@ -9,6 +9,12 @@ body {
   background-size: cover;
 }
 
+.header img {
+  width: 9em;
+  height: auto;
+  margin: 5em 0em 0em 3em;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -228,6 +234,12 @@ body {
     z-index: -2;
     background-image: url('../images/yellow3.jpg');
     background-size: cover;
+  }
+
+  .header img {
+    width: 6em;
+    height: auto;
+    margin: 5em 0em 0em 3em;
   }
 
   .navbar {
@@ -453,6 +465,12 @@ body {
     z-index: -2;
     background-image: url('../images/yellow3.jpg');
     background-size: cover;
+  }
+
+  .header img {
+    width: 6em;
+    height: auto;
+    margin: 3em 0em 0em 3em;
   }
 
   .navbar {
