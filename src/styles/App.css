@@ -43,7 +43,7 @@ body {
 
 .aboutme {
   height: 40em;
-  background-color: #12110E;
+  background-color: #E9E9EB;
 }
 
 .aboutme h1 {
@@ -52,7 +52,7 @@ body {
   font-size: 3em;
   text-shadow: 2px 2px 3px #8b8b85;
   padding: 1em 0em 0em .75em;
-  color: #E9E9EB;
+  color: #12110E;
 }
 
 .about {
@@ -70,13 +70,13 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.5em;
-  color: #E9E9EB;
+  color: #12110E;
   margin-right: 1.5em;
   font-family: 'Josefin Slab', serif;
 }
 
 .projects {
-  background-color: #E9E9EB;
+  background-color: #12110E;
   padding-bottom: 4em;
 }
 
@@ -86,7 +86,7 @@ body {
   font-family: 'Josefin Slab', serif;
   font-size: 3em;
   text-shadow: 2px 1px 3px #8b8b85;
-  color: #12110E;
+  color: #E9E9EB;
 }
 
 .project a {
@@ -114,7 +114,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.5em;
-  color: #12110E;
+  color: #E9E9EB;
   font-family: 'Josefin Slab', serif;
 }
 
@@ -275,6 +275,7 @@ body {
     text-shadow: 2px 2px 3px #8b8b85;
     padding: .5em 0em 0em .75em;
     margin: 0em 0em .75em 0em;
+    color: #E9E9EB;
   }
 
   .about {
@@ -296,10 +297,11 @@ body {
     width: 15em;
     font-size: 1.5em;
     font-family: 'Josefin Slab', serif;
+    color: #E9E9EB;
   }
 
   .projects {
-    background-color: #12110E;
+    background-color: #E9E9EB;
     padding-bottom: 4em;
   }
 
@@ -309,7 +311,7 @@ body {
     font-family: 'Josefin Slab', serif;
     font-size: 3em;
     text-shadow: 2px 1px 3px #8b8b85;
-    color: #E9E9EB;
+    color: #12110E;
   }
 
   .project a {
@@ -317,7 +319,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid #EDEBBB;
+    border-bottom: 1px solid #12110E;
     margin: 4em 2em 0em 2em;
     padding-bottom: .5em;
     opacity: 1;
@@ -335,12 +337,12 @@ body {
     display: flex;
     align-items: center;
     font-size: 1.5em;
-    color: #E9E9EB;
+    color: #12110E;
     font-family: 'Josefin Slab', serif;
   }
 
   .icons {
-    background-color: #E9E9EB;
+    background-color: #12110E;
     height: 38em;
   }
 
@@ -376,11 +378,11 @@ body {
   .icons li i {
     font-size: 4em;
     padding: .1em;
-    color: #12110E;
+    color: #E9E9EB;
   }
 
   .icons span {
-    color: #E9E9EB;
+    color: #12110E;
     font-size: 1.5em;
     padding-bottom: 5px;
     font-family: 'Raleway', sans-serif;
@@ -537,7 +539,7 @@ body {
   }
 
   .projects {
-    background-color: #12110E;
+    background-color: #E9E9EB;
     padding-bottom: 4em;
   }
 
@@ -547,7 +549,7 @@ body {
     font-family: 'Josefin Slab', serif;
     font-size: 3em;
     text-shadow: 2px 1px 3px #8b8b85;
-    color: #E9E9EB;
+    color: #12110E;
     text-align: center;
   }
 
@@ -573,12 +575,12 @@ body {
     display: flex;
     align-items: center;
     font-size: 1.5em;
-    color: #E9E9EB;
+    color: #12110E;
     font-family: 'Josefin Slab', serif;
   }
 
   .icons {
-    background-color: #E9E9EB;
+    background-color: #12110E;
     height: 30em;
   }
 
@@ -614,10 +616,11 @@ body {
   .icons li i {
     font-size: 3.5em;
     padding-top: .2em;
+    color: #E9E9EB;
   }
 
   .icons span {
-    color: #E9E9EB;
+    color: #12110E;
     font-size: 1.5em;
     padding-bottom: 5px;
     font-family: 'Raleway', sans-serif;
@@ -633,7 +636,7 @@ body {
   }
 
   .icons span:hover {
-    color: black;
+    color: #E9E9EB;
     transition: none;
     transition-timing-function: none;
     border-radius: 10px;
