@@ -94,7 +94,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 4em 2em 0em 2em;
+  margin: 4em 1em 0em 1em;
   opacity: .5;
   filter: grayscale(100%);
 }
@@ -105,17 +105,27 @@ body {
 }
 
 .project img {
-  /*margin-left: 4em;*/
-  margin: 0em 1em 0em 4em;
+  margin: 0em 1em 0em 0em;
 }
 
-.project p {
-  width: 28em;
-  display: flex;
-  align-items: center;
-  font-size: 1.5em;
+.projSections {
+  width: 35em;
   color: #E9E9EB;
   font-family: 'Josefin Slab', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.projTitle {
+  font-size: 2.5em;
+  margin: 0;
+  font-weight: bolder;
+}
+
+.projDescrip {
+  font-size: 1.5em;
 }
 
 .icons {
@@ -332,13 +342,25 @@ body {
     height: auto;
   }
 
-  .project p {
-    width: 16em;
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
+  .projSections {
+    width: 25em;
     color: #12110E;
     font-family: 'Josefin Slab', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projTitle {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .projDescrip {
+    font-size: 1.5em;
   }
 
   .icons {
@@ -570,13 +592,25 @@ body {
     height: auto;
   }
 
-  .project p {
-    width: 12em;
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
+  .projSections {
+    width: 13em;
     color: #12110E;
     font-family: 'Josefin Slab', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projTitle {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .projDescrip {
+    font-size: 1.5em;
   }
 
   .icons {
