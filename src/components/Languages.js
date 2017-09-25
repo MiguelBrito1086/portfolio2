@@ -4,6 +4,7 @@ export default class Languages extends Component {
   render() {
     return (
       <div className='icons'>
+        <h1 className='languages'>Languages that I am continuously learning</h1>
         <ul className='first-row'>
           <li>
             <i className="devicon-react-original" />
