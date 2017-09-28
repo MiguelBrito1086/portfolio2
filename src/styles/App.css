@@ -94,6 +94,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border-bottom: 1px solid #E9E9EB;
+  padding-bottom: 3em;
   margin: 4em 1em 0em 1em;
   opacity: .5;
   filter: grayscale(100%);
@@ -106,6 +108,8 @@ body {
 
 .project img {
   margin: 0em 1em 0em 0em;
+  height: 18em;
+  width: auto;
 }
 
 .projSections {
@@ -589,7 +593,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid #EDEBBB;
+    border-bottom: 1px solid #12110E;
     margin: 2em 2em 0em 2em;
     padding-bottom: .5em;
     opacity: 1;
