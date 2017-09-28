@@ -9,7 +9,7 @@ export default class AboutMe extends Component {
         <div className='about'>
           <img src={Profile} alt="profile"/>
           <p>
-            My name is Miguel! I have a love for the arts and for technology. I am now a potter turned developer and hoping that I can continue to create on the web and on the potter's wheel! Definitely loving how much there is to learn in the programming world. Up until now I have dabbled in NodeJs, HTML5, CSS3, JavaScript, React JavaScript, and React Redux. Pumped to keep learning more languages along the way too!
+            My name is Miguel! I am a potter turned developer and hoping that I can create on the web and on the potter's wheel! Until now I have dabbled in NodeJs, HTML5, CSS3, JavaScript, React JavaScript, and React Redux. Pumped to keep learning more languages along the way too!
           </p>
         </div>
       </div>

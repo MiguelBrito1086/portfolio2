@@ -42,7 +42,7 @@ body {
 }
 
 .aboutme {
-  height: 40em;
+  height: 35em;
   background-color: #E9E9EB;
 }
 
@@ -82,7 +82,7 @@ body {
 
 .projects h1 {
   margin: 0;
-  padding: 1em 0em 0em .75em;
+  padding: 1em 0em 0em .25em;
   font-family: 'Josefin Slab', serif;
   font-size: 3em;
   text-shadow: 2px 1px 3px #8b8b85;
