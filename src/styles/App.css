@@ -42,12 +42,12 @@ body {
 }
 
 .aboutme {
-  height: 35em;
+  height: 33em;
   background-color: #E9E9EB;
 }
 
 .aboutme h1 {
-  margin: 0em 0em 1em 0em;
+  margin: 0em 0em .5em 0em;
   font-family: 'Josefin Slab', serif;
   font-size: 3em;
   text-shadow: 2px 2px 3px #8b8b85;
@@ -82,7 +82,7 @@ body {
 
 .projects h1 {
   margin: 0;
-  padding: 1em 0em 0em .25em;
+  padding: 1em 0em 0em .75em;
   font-family: 'Josefin Slab', serif;
   font-size: 3em;
   text-shadow: 2px 1px 3px #8b8b85;
@@ -95,7 +95,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   border-bottom: 1px solid #E9E9EB;
-  padding-bottom: 3em;
+  padding-bottom: 3.5em;
   margin: 4em 1em 0em 1em;
   opacity: .5;
   filter: grayscale(100%);
