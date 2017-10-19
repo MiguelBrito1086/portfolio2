@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import RPS from '../images/rps.png';
-import Play from '../images/Play.png';
+import Cook from '../images/cook.png';
 import Ceramics from '../images/ceramics.png';
 
 export default class Projects extends Component {
@@ -8,6 +8,17 @@ export default class Projects extends Component {
     return (
       <div className='projects' id='Projects'>
         <h1>Projects</h1>
+        <div className='project'>
+          <a href="https://miguelbrito1086.github.io/cook/" target='_blank'>
+          <img src={ Cook } alt="Cook"/>
+          <div className='projSections'>
+            <p className='projTitle'>'Cook' made with React, CSS, and JavaScript that fetches to an API</p>
+            <p className='projDescrip'>
+              The 'Cook' project that I created was built using React, JavaScript, HTML and CSS. It requests data from an external API called Food2Fork. Simple app that is fully responsive for mobile and tablet to search for recipes or create and save your own!
+            </p>
+          </div>
+          </a>
+        </div>
         <div className='project'>
           <a href="https://miguelbrito1086.github.io/e-commerce-mock/" target='_blank'>
             <img src={ Ceramics } alt="Ceramics"/>
@@ -26,17 +37,6 @@ export default class Projects extends Component {
               <p className='projTitle'>Rock, Paper Scissors Game made with HTML, CSS, & JavaScript</p>
               <p className='projDescrip'>
                 This was a simple Rock, Paper, Scissors game I created. At first I created it with an alert box that would pop up and ask you for your move. I decided to revamp it and styled it to be a fun retro style family favorite!
-              </p>
-            </div>
-          </a>
-        </div>
-        <div className='project'>
-          <a href="https://miguelbrito1086.github.io/song-share/" target='_blank'>
-            <img src={ Play } alt="PlayList"/>
-            <div className='projSections'>
-              <p className='projTitle'>'PlayList Cloud' made with React fetching to an API</p>
-              <p className='projDescrip'>
-                The 'PlayList Cloud' project that I created was built using React JavaScript. It posts data to an external API using AJAX request. Simple app to post and share your favorite artists and songs!
               </p>
             </div>
           </a>

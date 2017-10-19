@@ -7,6 +7,7 @@ body {
   height: 22em;
   background-image: url('../images/yellow3.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header img {
@@ -63,6 +64,8 @@ body {
 
 .about img {
   margin: 2em 1em 5em 1em;
+  width: 20em;
+  height: 20em;
 }
 
 .about p {
