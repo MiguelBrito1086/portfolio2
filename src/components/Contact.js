@@ -26,7 +26,7 @@ export default class Contact extends Component {
               <img src={ Medium } alt="Medium"/>
               <span>Medium</span>
             </a>
-            <a href="mailto:mgangBrito@icloud.com?Subject=Hello%20Miguel">
+            <a href="mailto:mbrito1086@gmail.com?Subject=Hello%20Miguel">
               <img src={ Email } alt="Email"/>
               <span>Email</span>
             </a>
