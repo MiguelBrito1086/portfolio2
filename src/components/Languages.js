@@ -7,6 +7,10 @@ export default class Languages extends Component {
         <h1 className='languages'>My Current Arsenal</h1>
         <ul className='first-row'>
           <li>
+            <i className="devicon-vuejs-plain" />
+            <span>Vue.js</span>
+          </li>
+          <li>
             <i className="devicon-react-original" />
             <span>React</span>
           </li>
@@ -30,12 +34,12 @@ export default class Languages extends Component {
             <i className="devicon-github-plain" />
             <span>GitHub</span>
           </li>
+        </ul>
+        <ul className='second-row'>
           <li>
             <i className="devicon-atom-original" />
             <span>Atom</span>
           </li>
-        </ul>
-        <ul className='second-row'>
           <li>
             <i className="devicon-photoshop-line" />
             <span>Photoshop</span>

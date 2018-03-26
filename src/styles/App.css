@@ -162,6 +162,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 0em 0em 2em 0em;
+
 }
 
 .icons li {
